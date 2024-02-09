@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://cdn.glitch.global/b0dd3c2f-e522-46f9-ac5b-a7325a0ff47b/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81%2018.png?v=1707482871266');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from hyperlinks */
+  }
+  
+  #movies { background: orange; }
+  #music { background: blue; }
+  #books { background: green; }
+  #art { background: pink; }
+  
