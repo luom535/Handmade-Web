@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golden Hour by Jvke</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbea; /* A soft background color */
+    color: #333;
+    text-align: center;
+    padding-top: 50px; /* Add some padding to the top */
+  }
+  .description {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer; /* Indicate the description is clickable */
+    transition: background-color 0.3s ease;
+  }
+  .description:hover {
+    background-color: #f0f0f0; /* Change color on hover */
+  }
+  .lyrics {
+    white-space: pre-wrap; /* Respect line breaks in lyrics */
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+</style>
+<script>
+function revealText() {
+  var text = document.getElementById('hidden-text');
+  if (text.style.display === 'none') {
+    text.style.display = 'block';
+  } else {
+    text.style.display = 'none';
+  }
+}
+</script>
+</head>
+<body>
+  <h1>Golden Hour</h1>
+  <div onclick="revealText()" class="description">
+    Click to reveal the song description!
+    <div id="hidden-text" style="display: none;">
+      <p>"Golden Hour" is a song by American singer-songwriter Jvke. Released as a single on July 15, 2022, it went viral on TikTok later in the year and became an international hit. The song reached the top 10 in the United States, in addition to charting in Canada, Australia, Germany, Ireland, the Netherlands, the United Kingdom, New Zealand, Switzerland, and the Global 200. Jason Lipshutz of Billboard wrote, "'Golden Hour' has a winning formula: semi-rapped verses full of romantic observations and modern music references, boiling into an enormous, crooned-from-the-gut chorus."</p>
+    </div>
+  </div>
+  <div class="lyrics">
+    <h2>Lyrics</h2>
+    <p>It was just two lovers<br>
+    Sittin' in the car, listening to Blonde<br>
+    Fallin' for each other<br>
+    Pink and orange skies, feelin' super childish<br>
+    No Donald Glover<br>
+    Missed call from my mother<br>
+    Like, "Where you at tonight?" Got no alibi<br>
+    I was all alone with the love of my life<br>
+    She's got glitter for skin<br>
+    My radiant beam in the night<br>
+    I don't need no light to see you<br>
+    Shine<br>
+    It's your golden hour (oh)<br>
+    You slow down time<br>
+    In your golden hour (oh)<br>
+    ...</p>
+    <!-- Add the rest of the lyrics here -->
+  </div>
+</body>
+</html>

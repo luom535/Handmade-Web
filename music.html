@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Collection</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 5em;
+    margin-top: 20px;
+    color: #ffffff;
+    opacity: 0.5;
+    letter-spacing: -4px;
+  }
+  .album-link {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .album {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    position: relative;
+  }
+  .album::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #0000ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
+  .album-title {
+    display: block; /* 使标题显示在唱片下方 */
+    margin-top: 20px; /* 调整标题与唱片的距离 */
+  }
+</style>
+</head>
+<body>
+  <h1>MUSICS</h1>
+  <a href="Golden hour.html" class="album-link"> <!-- 链接到 Golden Hour 页面 -->
+    <div class="album"></div>
+    <div class="album-title">Golden Hour</div>
+  </a>
+  <a href="History.html" class="album-link"> <!-- 链接到 History 页面 -->
+    <div class="album"></div>
+    <div class="album-title">History</div>
+  </a>
+  <!-- 在这里添加其他音乐相关的内容 -->
+</body>
+</html>

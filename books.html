@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Books Collection</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #a0d8a0; /* 设置背景颜色，与图片类似 */
+    color: #333; /* 文字颜色 */
+    text-align: center; /* 居中对齐文字 */
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    background-color: #9bbab3; /* 为标题设置一个背景颜色，与图片中的标题颜色类似 */
+    color: white; /* 设置标题文字颜色为白色 */
+    padding: 20px 0; /* 标题上下的填充 */
+  }
+  .bookshelf {
+    display: flex;
+    justify-content: center; /* 使书籍封面在容器中居中对齐 */
+    align-items: center; /* 垂直居中 */
+    flex-wrap: wrap; /* 允许书籍封面换行 */
+    padding: 20px; /* 书架的内边距 */
+  }
+  .book {
+    margin: 10px; /* 每本书之间的间隔 */
+    transition: transform 0.3s ease; /* 鼠标悬停在封面上时的动画效果 */
+  }
+  .book:hover {
+    transform: scale(1.05); /* 鼠标悬停时放大书籍封面 */
+  }
+  .book img {
+    width: 100px; /* 设置书籍封面的宽度 */
+    height: auto; /* 自动调整高度保持纵横比 */
+    border: 1px solid #ccc; /* 封面周围的边框 */
+  }
+</style>
+</head>
+<body>
+  <h1>BOOKS</h1>
+  <div class="bookshelf">
+    <a href="book1.html" class="book">
+      <img src="https://cdn.glitch.global/b0dd3c2f-e522-46f9-ac5b-a7325a0ff47b/images-2.jpeg?v=1707507648146" alt="Book 1 Cover">
+    </a>
+    <a href="book2.html" class="book">
+      <img src="https://cdn.glitch.global/b0dd3c2f-e522-46f9-ac5b-a7325a0ff47b/Threebody.jpg?v=1707508377792" alt="Book 2 Cover">
+    </a>
+    <!-- 更多书籍 -->
+  </div>
+  <!-- 在这里添加书籍相关的内容 -->
+</body>
+</html>

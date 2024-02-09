@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Custom styles for abstract shapes and lines */
+        .abstract-shape {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            opacity: 0.7;
+        }
+        .abstract-line {
+            position: absolute;
+            width: 3px;
+            height: 100%;
+            background-color: black;
+            transform: rotate(20deg);
+        }
+        /* End of custom styles */
+    </style>
+</head>
+<body class="bg-cream text-black font-sans">
+
+    <!-- Abstract background shapes and lines -->
+    <div class="relative w-full h-screen">
+        <!-- Green blob with book button -->
+        <div class="abstract-shape bg-green-300" style="top: 10%; left: 5%;"></div>
+        <button class="absolute top-12 left-10 text-black bg-green-600 py-2 px-4 rounded">Book</button>
+        
+        <!-- Yellow blob for movies -->
+        <div class="abstract-shape bg-yellow-300" style="top: 40%; left: 15%;"></div>
+        
+        <!-- Pink blob for artworks -->
+        <div class="abstract-shape bg-pink-300" style="top: 10%; right: 5%;"></div>
+        
+        <!-- Blue blob for music -->
+        <div class="abstract-shape bg-blue-300" style="top: 40%; right: 15%;"></div>
+        
+        <!-- Black lines -->
+        <div class="abstract-line" style="top: 30%; left: 20%;"></div>
+        <div class="abstract-line" style="top: 30%; right: 20%;"></div>
+        
+        <!-- Text and title -->
+        <div class="absolute bottom-10 w-full text-center">
+            <p class="text-3xl">Introduction</p>
+            <h1 class="text-6xl font-bold">COLLECTION</h1>
+        </div>
+    </div>
+
+    <!-- Placeholder for other sections of the page (to be added as per other screenshots) -->
+
+</body>
+</html>

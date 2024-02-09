@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collection Homepage</title>
+<link rel="stylesheet" href="Project1.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* 使用新的背景图片 */
+    background: url('https://cdn.glitch.global/b0dd3c2f-e522-46f9-ac5b-a7325a0ff47b/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81%2023.png?v=1707489818076') no-repeat center/cover;
+    background-attachment: fixed;
+  }
+
+  .container {
+    text-align: center;
+    position: relative;
+    padding-top: 200px; 
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+
+  #movies { background: orange; }
+  #music { background: rgb(87, 163, 235); }
+  #books { background: rgb(40, 180, 40); }
+  #art { background: pink; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="movies.html" class="circle" id="movies">Movies</a>
+  <a href="music.html" class="circle" id="music">Music</a>
+  <a href="books.html" class="circle" id="books">Books</a>
+  <a href="art.html" class="circle" id="art">Art</a>
+</div>
+</body>
+</html>

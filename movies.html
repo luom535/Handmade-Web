@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movies Collection</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5deb3;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    color: #ffa500;
+    padding: 20px 0;
+  }
+  .moviesshelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .movie {
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  .movie:hover {
+    transform: scale(1.05);
+  }
+  .movie img {
+    width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+</style>
+</head>
+<body>
+  <h1>MOVIES</h1>
+  <div class="moviesshelf">
+    <a href="interstellar.html" class="movie">
+      <img src="https://cdn.glitch.global/b0dd3c2f-e522-46f9-ac5b-a7325a0ff47b/Interstellar_film_poster.jpg?v=1707498979995" alt="Interstellar">
+    </a>
+    <!-- 请确保你有一个名为 interstellar.html 的文件，或者更改 href 的值为你的电影详情页面的实际路径 -->
+    <a href="Flipped.html" class="movie">
+      <img src="https://cdn.glitch.global/b0dd3c2f-e522-46f9-ac5b-a7325a0ff47b/Flipped_poster.jpg?v=1707501068596" alt="Movie 2 Cover">
+    </a>
+    <!-- 添加更多电影封面链接 -->
+  </div>
+</body>
+</html>
